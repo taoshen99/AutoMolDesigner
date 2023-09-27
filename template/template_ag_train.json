@@ -1,0 +1,10 @@
+{
+	"prj_name": "ag_train_morgan2_best_benchmark",
+	"train_data": "./datasets/MIC_train.xlsx",
+	"test_size": 0.2, 
+	"features": "ecfp4",
+	"eval_metric": "f1",
+	"quality": "best_quality",
+	"time_limit": 3600,
+	"opt_deploy": false
+}

@@ -1,0 +1,11 @@
+{
+	"prj_name": "ChEMBL28-pretrain",
+	"pretrain_data": "./datasets/pretrain_smiles_prep.smi",
+	"units": 256,
+	"layers":3,
+	"embedding_dim": 128,
+	"num_epochs": 100,
+	"batch_size": 512,
+	"train_split": 0.99,
+	"num_workers": 8
+}

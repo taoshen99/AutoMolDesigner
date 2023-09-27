@@ -1,0 +1,7 @@
+{
+	"prj_name": "ChEMBL28-finetune-sample",
+	"trained_model": "./projects/ChEMBL28-finetune/CLM-finetune_best-10-0.8888.pkl",
+	"tokens_max_len":128,
+	"sampling_num": 30000,	
+	"sampling_temp": 0.75
+}

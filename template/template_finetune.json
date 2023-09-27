@@ -1,0 +1,9 @@
+{
+	"prj_name": "ChEMBL28-finetune",
+	"finetune_data": "./datasets/finetune_smiles_prep.smi",
+	"batch_size":128,
+	"num_epochs": 50,
+	"train_split": 0.80,
+	"num_workers": 8,
+	"pretrain_model":"./projects/ChEMBL28-pretrain/CLM-pretrain_best-10-0.8888.pkl"
+}

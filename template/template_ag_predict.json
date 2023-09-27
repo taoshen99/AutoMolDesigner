@@ -1,0 +1,6 @@
+{
+	"prj_name": "ag_train_morgan2_good_benchmark_test",
+	"smiles_dir": "./datasets/MIC_test.xlsx",
+	"model_dir":"./projects/ag_train_morgan2_good_benchmark/ag_models",
+	"features": "ecfp4"
+}
