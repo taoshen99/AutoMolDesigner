@@ -141,3 +141,25 @@ The AutoML framework in this work adopted [AutoGluon](https://github.com/autoglu
 We appreciate the developers of [Dimorphite-DL](https://github.com/Sulstice/dimorphite_dl). We directly use that computational tool to protonate raw actives. It is highly recommended to cite their publication [Dimorphite-DL: an open-source program for enumerating the ionization states of drug-like small molecules](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-019-0336-9), if you use this module in your work. 
 
 The tokenization method for SMILES and Temperature Sampling technique referred to [LSTM_Chem](https://github.com/topazape/LSTM_Chem) that was developed by Gupta et al., who contributed to the early establishment of chemical language model.
+
+## Citation
+
+If you use AutoMolDesigner or related materials, please cite:
+
+Shen, T.; Guo, J.; Han, Z.; Zhang, G.; Liu, Q.; Si, X.; Wang, D.; Wu, S.; Xia, J. *AutoMolDesigner for Antibiotic Discovery: An AI-based Open-source Software for Automated Design of Small-molecule Antibiotics*. 2023, 2023.09.27.559854. bioRxiv. [DOI: 10.1101/2023.09.27.559854](https://www.biorxiv.org/content/10.1101/2023.09.27.559854v1).
+
+or BibTex:
+
+```bibtex
+@article {Shen2023.09.27.559854,
+	author = {Tao Shen and Jiale Guo and Zunsheng Han and Gao Zhang and Qingxin Liu and Xinxin Si and Dongmei Wang and Song Wu and Jie Xia},
+	title = {AutoMolDesigner for Antibiotic Discovery: An AI-based Open-source Software for Automated Design of Small-molecule Antibiotics},
+	elocation-id = {2023.09.27.559854},
+	year = {2023},
+	doi = {10.1101/2023.09.27.559854},
+	publisher = {Cold Spring Harbor Laboratory},
+	URL = {https://www.biorxiv.org/content/early/2023/09/29/2023.09.27.559854},
+	eprint = {https://www.biorxiv.org/content/early/2023/09/29/2023.09.27.559854.full.pdf},
+	journal = {bioRxiv}
+}
+```
