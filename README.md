@@ -1,8 +1,8 @@
 # AutoMolDesigner V1.1
-[![Zenodo Badge](https://zenodo.org/badge/DOI/10.5281/zenodo.8366085.svg)](https://doi.org/10.5281/zenodo.8366085)
+[![Zenodo Badge](https://zenodo.org/badge/DOI/10.5281/zenodo.10097899.svg)](https://doi.org/10.5281/zenodo.10097899)
 ## Introduction
 ![Figure from manuscript](GA.png)
-**AutoMolDesigner** is a computer-aided drug design software that enables automated design and screening of drug-like molecules through combination of chemical language model and automated machine learning (AutoML) framework. This open-source repository holds its command-line interface (CLI) version. It was developed on Linux (Ubuntu 22.04 LTS) with Python3，and it has also been tested on Windows and MacOS. Moreover, we provide the graphical user interface (GUI) version of this software that has been tested on Windows and  MacOS. The ready-to-use software packages are freely available at [Zenodo](https://doi.org/10.5281/zenodo.8366085), wherein the user manual along with all datasets and trained models is also available. 
+**AutoMolDesigner** is a computer-aided drug design software that enables automated design and screening of drug-like molecules through combination of chemical language model and automated machine learning (AutoML) framework. This open-source repository holds its command-line interface (CLI) version. It was developed on Linux (Ubuntu 22.04 LTS) with Python3，and it has also been tested on Windows and MacOS. Moreover, we provide the graphical user interface (GUI) version of this software that has been tested on Windows and  MacOS. The ready-to-use software packages are freely available at [Zenodo](https://doi.org/10.5281/zenodo.10097899), wherein the user manual along with all datasets and trained models is also available. 
 
 
 ## Requirements
@@ -54,7 +54,7 @@ $ python pretrain.py
 After each iteration of the whole data, the model will be deposited at `projects/{prj_name}/` if the validation loss decreases. The pretraining process will be terminated if no progress of validation loss is made during five consecutive epochs. The best model is deposited as `CLM-pretrain_best-{epoch}-{validation loss}.pkl`
 
 #### Finetune
-Model finetuning is an effective strategy to navigate molecular generation to the focused chemical space of interest. To finetune your own model, you should have both the pretrained model and molecules of interest (tens to thousands). Herein, we take the generation of virtual library for antibacterial small molecules against *Escherichia coli (E. coli.)* as an guiding example:
+Model finetuning is an effective strategy to navigate molecular generation to the focused chemical space of interest. To finetune your own model, you should have both the pretrained model and molecules of interest (tens to thousands). Herein, we take the generation of virtual library for antibacterial small molecules against *Escherichia coli (E. coli)* as an guiding example:
 1) Deposit and curate the molecules for finetuning (In this case, we have prepared the [dataset for finetuning](datasets/finetune-Ecoli-32ugmL-preped.smi); see manuscript for detailed description):
 
 2) Compile the config for finetuning:
@@ -91,7 +91,7 @@ The definitions of `Validity`, `Uniqueness` and `Novelty` can be referred to [Po
 
 ### Molecular property prediction
 
-This software implements molecular property prediction with AutoGluon, an open-source AutoML framework developed by Amazon Co. Ltd.,. It takes molecular descriptors as input and can be applied for both binary classification tasks and regression tasks. Two modes are provided, i.e., retrospective benchmarking and prospective prediction. Herein, we provide a case study on screening active antibacterial small molecules against *E. coli.* as a basic guideline.
+This software implements molecular property prediction with AutoGluon, an open-source AutoML framework developed by Amazon Co. Ltd.,. It takes molecular descriptors as input and can be applied for both binary classification tasks and regression tasks. Two modes are provided, i.e., retrospective benchmarking and prospective prediction. Herein, we provide a case study on screening active antibacterial small molecules against *E. coli* as a basic guideline.
 
 #### Data curation
 
