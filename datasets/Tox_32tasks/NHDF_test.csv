@@ -1,0 +1,4 @@
+SMILES,label
+COc1cc2nc(N(C)CCCCCCN(C)C(=O)C3COc4ccccc4O3)nc(N)c2cc1OC,1
+Cc1cnccc1/C=C/C(C)[C@H]1CC[C@H]2[C@@]34CC[C@]5(C[C@H](N(C)C)CC=C5C=C3CC[C@]12C)O4,1
+COc1cc2nc(N3CCN(C(=O)C4COc5ccccc5O4)CC3)nc(N)c2cc1OC,0

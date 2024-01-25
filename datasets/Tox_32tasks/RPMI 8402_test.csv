@@ -1,0 +1,11 @@
+SMILES,label
+COc1cc2c(=O)n(CCN3CCN(C)CC3)c3c4cc5c(cc4ncc3c2cc1OC)OCO5,1
+Cc1cccc(-c2nc3cc(-c4nc5cc(C#N)ccc5[nH]4)ccc3[nH]2)c1,1
+NC(=O)c1ccc2[nH]c(-c3ccc4[nH]c(-c5ccc6ccccc6c5)nc4c3)nc2c1,1
+CCN(CC)CCn1c(=O)c2cc(OC)c(OC)cc2c2cnc3cc4c(cc3c21)OCO4,1
+Cc1cccc(-c2nc3cc(-c4nc5cc(C(N)=O)ccc5[nH]4)ccc3[nH]2)c1,1
+COc1cc2c(=O)n(CCNC(C)C)c3c4cc5c(cc4ncc3c2cc1OC)OCO5,1
+CCCCn1c(=O)c2cc(N)ccc2c2cnc3cc4c(cc3c21)OCO4,1
+COc1ccc(-c2nc3cc(-c4nc5cc(N6CCN(C)CC6)ccc5[nH]4)ccc3[nH]2)cc1,1
+Cc1nc2cc(-c3nc4cc(-c5nc6cc(-c7ccccc7)ccc6[nH]5)ccc4[nH]3)ccc2[nH]1,1
+c1ccc2c(c1)ccc1[nH]c(-c3ccc4[nH]c(-c5ccc6[nH]cnc6c5)nc4c3)nc12,0

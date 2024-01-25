@@ -1,0 +1,6 @@
+SMILES,label
+COC(=O)[C@]12CC[C@@H](C)[C@H](C)[C@H]1C1=CC(=O)[C@@H]3[C@@]4(C)C(C=O)=C[C@@](C)(CO)[C@@H]4CC[C@@]3(C)[C@]1(C)CC2,1
+COc1ncnc2c1c1occc1n2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O,1
+CC(=O)O[C@H]1CC[C@@]2(C)[C@@H](CC[C@]3(C)[C@@H]2CC[C@@H]2C4=C(C(C)C)C(=O)C[C@]4(C(=O)OCCN4CCOCC4)CC[C@]23C)C1(C)C,0
+COc1ccc2[nH]c(C(=O)Nc3cccc(-c4c[nH]c(N)n4)c3)cc2c1,0
+C/C=C(/C)C(=O)O[C@@H]1C[C@H]2C(=C1C)[C@@H]1OC(=O)[C@@](C)(O)[C@@]1(O)[C@@H](OC(=O)CCCCn1cc([C@]3(O)CC[C@H]4[C@@H]5CCc6cc(OC)ccc6[C@H]5CC[C@@]43C)nn1)C[C@]2(C)OC(C)=O,0

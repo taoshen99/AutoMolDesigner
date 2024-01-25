@@ -1,0 +1,9 @@
+SMILES,label
+CCOC(=O)C1=CC2C(=O)c3cccnc3C(=O)C2C(c2ccc(N(C)C)cc2)=N1,1
+O=c1cc2oc3cc4ccccc4cc3nc-2c2cccnc12,1
+CCOC(=O)C1(N)CSC2=C1C(=O)c1ncccc1C2=O,1
+Cc1ccc2oc3cc(=O)c4ncccc4c-3nc2c1C,1
+Cc1cc(C)c2nc3c4cccnc4c(=O)cc-3oc2c1,1
+CCOC(=O)C1=CC2C(=O)c3cccnc3C(=O)C2C(c2ccc(Br)cc2)=N1,1
+CC(=O)/C(=C/c1c(-c2ccccc2)[nH]c2ccccc12)C(=O)c1ccccc1,0
+c1ccc(-c2ccc(CN3CC4CCC(C3)N4Cc3ccc(-c4ccccc4)cc3)cc2)cc1,0

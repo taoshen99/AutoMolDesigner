@@ -1,0 +1,5 @@
+SMILES,label
+C=CC(=O)Nc1cccc(Nc2nc(Nc3ccc(OCCOC)cc3)ncc2F)c1,1
+COc1cc2c(cc1OCCCC(=O)Nc1cn(C)c(C(=O)Nc3ccc4sccc4c3)n1)N=C[C@@H]1Cc3ccccc3N1C2=O,1
+COC(=O)CCNC(=O)c1cc2cc(NC(=O)c3nc(NC(=O)CCCOc4cc5c(cc4OC)C(=O)N4c6ccccc6C[C@H]4C=N5)cn3C)ccc2s1,1
+C=CC(=O)N1CCC[C@@H](n2nc(-c3ccc(Oc4ccccc4)cc3)c3c(N)ncnc32)C1,0

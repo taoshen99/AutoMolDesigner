@@ -1,0 +1,7 @@
+SMILES,label
+COc1ccc(/C=C\c2cc(OC)c(OC)c(OC)c2)cc1O,1
+COc1ccc(/C=C\c2cc(OC)c(OC)c(OC)c2)cc1NC(=O)Oc1cccc(Cl)c1C,1
+COc1ccc(/C=C\c2cc(OC)c(OC)c(OC)c2)cc1NC(=O)Oc1cccc(C(F)(F)F)c1,1
+COc1ccc(/C=C\c2cc(OC)c(OC)c(OC)c2)cc1NC(=O)Oc1ccc(F)cc1,1
+COc1ccc(/C=C\c2cc(OC)c(OC)c(OC)c2)cc1NC(=O)Oc1ccc(C)c(C)c1,1
+COc1ccc(/C=C\c2cc(OC)c(OC)c(OC)c2)cc1NC(=O)Nc1cccc(Cl)c1,0
