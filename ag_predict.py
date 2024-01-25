@@ -30,7 +30,7 @@ def read_smis2mols(predict_data_path: str):
         df_test = pd.read_csv(predict_data_path)
         test_smis = list(df_test['SMILES'])
         mols = [Chem.MolFromSmiles(smi) for smi in test_smis]
-        labels = list(df_test['Type'])
+        labels = list(df_test['label'])
         return mols, labels
     else:
         df_test = pd.read_excel(predict_data_path)
