@@ -145,21 +145,18 @@ The tokenization method for SMILES and Temperature Sampling technique referred t
 ## Citation
 
 If you use AutoMolDesigner or related materials, please cite:
-
-Shen, T.; Guo, J.; Han, Z.; Zhang, G.; Liu, Q.; Si, X.; Wang, D.; Wu, S.; Xia, J. *AutoMolDesigner for Antibiotic Discovery: An AI-based Open-source Software for Automated Design of Small-molecule Antibiotics*. 2023, 2023.09.27.559854. bioRxiv. [DOI: 10.1101/2023.09.27.559854](https://www.biorxiv.org/content/10.1101/2023.09.27.559854v1).
+Shen, T.; Guo, J.; Han, Z.; Zhang, G.; Liu, Q.; Si, X.; Wang, D.; Wu, S.; Xia, J., AutoMolDesigner for Antibiotic Discovery: An AI-Based Open-Source Software for Automated Design of Small-Molecule Antibiotics. *J. Chem. Inf. Model.* 2024. DOI: 10.1021/acs.jcim.3c01562
 
 or BibTex:
 
 ```bibtex
-@article {Shen2023.09.27.559854,
-	author = {Tao Shen and Jiale Guo and Zunsheng Han and Gao Zhang and Qingxin Liu and Xinxin Si and Dongmei Wang and Song Wu and Jie Xia},
-	title = {AutoMolDesigner for Antibiotic Discovery: An AI-based Open-source Software for Automated Design of Small-molecule Antibiotics},
-	elocation-id = {2023.09.27.559854},
-	year = {2023},
-	doi = {10.1101/2023.09.27.559854},
-	publisher = {Cold Spring Harbor Laboratory},
-	URL = {https://www.biorxiv.org/content/early/2023/09/29/2023.09.27.559854},
-	eprint = {https://www.biorxiv.org/content/early/2023/09/29/2023.09.27.559854.full.pdf},
-	journal = {bioRxiv}
+@article{doi:10.1021/acs.jcim.3c01562,
+author = {Shen, Tao and Guo, Jiale and Han, Zunsheng and Zhang, Gao and Liu, Qingxin and Si, Xinxin and Wang, Dongmei and Wu, Song and Xia, Jie},
+title = {AutoMolDesigner for Antibiotic Discovery: An AI-Based Open-Source Software for Automated Design of Small-Molecule Antibiotics},
+journal = {Journal of Chemical Information and Modeling},
+year = {2024},
+doi = {10.1021/acs.jcim.3c01562},
+note ={PMID: 38265916},
+URL = {https://doi.org/10.1021/acs.jcim.3c01562}
 }
 ```
