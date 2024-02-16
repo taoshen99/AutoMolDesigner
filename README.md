@@ -1,7 +1,10 @@
 # AutoMolDesigner V1.1
 [![Zenodo Badge](https://zenodo.org/badge/DOI/10.5281/zenodo.10097899.svg)](https://doi.org/10.5281/zenodo.10097899)
 ## Introduction
-![Figure from manuscript](GA.png)
+<center class="half">
+    <img src="Intro.jpg">
+</center>
+
 **AutoMolDesigner** is a computer-aided drug design software that enables automated design and screening of drug-like molecules through combination of chemical language model and automated machine learning (AutoML) framework. This open-source repository holds its command-line interface (CLI) version. It was developed on Linux (Ubuntu 22.04 LTS) with Python3，and it has also been tested on Windows and MacOS. Moreover, we provide the graphical user interface (GUI) version of this software that has been tested on Windows and  MacOS. The ready-to-use software packages are freely available at [Zenodo](https://doi.org/10.5281/zenodo.10097899), wherein the user manual along with all datasets and trained models is also available. 
 
 
@@ -145,7 +148,8 @@ The tokenization method for SMILES and Temperature Sampling technique referred t
 ## Citation
 
 If you use AutoMolDesigner or related materials, please cite:
-Shen, T.; Guo, J.; Han, Z.; Zhang, G.; Liu, Q.; Si, X.; Wang, D.; Wu, S.; Xia, J., AutoMolDesigner for Antibiotic Discovery: An AI-Based Open-Source Software for Automated Design of Small-Molecule Antibiotics. *J. Chem. Inf. Model.* 2024. DOI: 10.1021/acs.jcim.3c01562
+
+Shen, T.; Guo, J.; Han, Z.; Zhang, G.; Liu, Q.; Si, X.; Wang, D.; Wu, S.; Xia, J., AutoMolDesigner for Antibiotic Discovery: An AI-Based Open-Source Software for Automated Design of Small-Molecule Antibiotics. *J. Chem. Inf. Model.* 2024, 64, 575-583.
 
 or BibTex:
 
@@ -154,9 +158,13 @@ or BibTex:
 author = {Shen, Tao and Guo, Jiale and Han, Zunsheng and Zhang, Gao and Liu, Qingxin and Si, Xinxin and Wang, Dongmei and Wu, Song and Xia, Jie},
 title = {AutoMolDesigner for Antibiotic Discovery: An AI-Based Open-Source Software for Automated Design of Small-Molecule Antibiotics},
 journal = {Journal of Chemical Information and Modeling},
+volume = {64},
+number = {3},
+pages = {575-583},
 year = {2024},
 doi = {10.1021/acs.jcim.3c01562},
-note ={PMID: 38265916},
-URL = {https://doi.org/10.1021/acs.jcim.3c01562}
+note = {PMID: 38265916},
+URL = {https://doi.org/10.1021/acs.jcim.3c01562},
+eprint = {https://doi.org/10.1021/acs.jcim.3c01562}
 }
 ```
