@@ -7,6 +7,11 @@
 
 **AutoMolDesigner** is a computer-aided drug design software that enables automated design and screening of drug-like molecules through combination of chemical language model and automated machine learning (AutoML) framework. This open-source repository holds its command-line interface (CLI) version. It was developed on Linux (Ubuntu 22.04 LTS) with Python3，and it has also been tested on Windows and MacOS. Moreover, we provide the graphical user interface (GUI) version of this software that has been tested on Windows and  MacOS. The ready-to-use software packages are freely available at [Zenodo](https://doi.org/10.5281/zenodo.10097899), wherein the user manual along with all datasets and trained models is also available. 
 
+## Science News
+Here are two pieces of Chinese news promoting our work:
+1) ComputArt (WeChat Channel): [AutoMolDesigner - Leveraging AI for automated small-molelcule antibiotic discovery](https://mp.weixin.qq.com/s/1TE8Bg-jTZL9D4dWBTeLbA) ([BaiduNetDisk](https://pan.baidu.com/s/1cFPa2ediqeAYJPUWSWTpgA?pwd=63hz) provided for Chinese users)
+2) ISTIS Shanghai: [Deep application of AI in biomedicine](https://www.istis.sh.cn/cms/news/article/53/26731)
+
 
 ## Requirements
 * This tool supports CUDA-enabled GPU and can also run on CPU with limited performance.
